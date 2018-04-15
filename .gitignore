@@ -19,9 +19,12 @@ server-resource-packs/
 .curseclient
 .ReAuth.cfg
 BotaniaVars.dat
-crafttweaker.logsminecraftinstance.json
+crafttweaker.logs
 *.dll
 options.txt
 realms_persistence.json
 usercache.json
 usernamecache.json
+minecraftinstance.json
+config/splash.properties
+config/jei/worldSettings.cfg

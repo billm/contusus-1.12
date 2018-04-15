@@ -1,5 +1,6 @@
 *.jar
 mods/dungeons2/logs/
+mods/hats/Favourites/
 .mixin.out
 astralsorcery/
 backups/

@@ -1,0 +1,40 @@
+# Gilly's City Settlement
+
+weight=1
+embed_into_distance=2
+uniqueMinDistance=250
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,ice,bedrock,netherrack,nether_brick,nether_brick_fence,soul_sand,quartz_ore,gravel,end_stone,obsidian,iron_bars,cloud,flesh,ash_block,slime_grass,slime_congealed,slime_dirt
+biomesToSpawnIn=plains
+dimensions=1,5,5
+max_leveling=3
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=0
+
+rule1=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC5 ~-32 ~2 ~-32:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC4 ~-32 ~2 ~-32:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT7 ~-32 ~2 ~-32:@
+rule2=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC1 ~-37 ~2 ~-13:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC5 ~-37 ~2 ~-10:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC3 ~-37 ~2 ~-10:@
+rule3=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC2 ~-37 ~2 ~12:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC4 ~-37 ~2 ~10:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC6 ~-37 ~2 ~10:@
+rule4=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC1 ~-35 ~2 ~35:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC4 ~-32 ~2 ~32:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT7 ~-32 ~2 ~32:@
+rule5=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC8 ~-12 ~2 ~-37:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC6 ~-10 ~2 ~-37:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC3 ~-10 ~2 ~-37:@
+rule6=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT1a ~-17 ~2 ~-17:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT5 ~-17 ~2 ~-17:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT3 ~-17 ~2 ~-17:@
+rule7=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT2 ~-17 ~2 ~17:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT4 ~-17 ~2 ~17:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT3 ~-17 ~2 ~17:@
+rule8=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC8 ~-12 ~2 ~37:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC5 ~-10 ~2 ~37:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC6 ~-10 ~2 ~37:@
+rule9=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC1 ~12 ~2 ~-37:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC5 ~10 ~2 ~-37:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC6 ~10 ~2 ~-37:@
+rule10=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT2 ~17 ~2 ~-17:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT5 ~17 ~2 ~-17:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT3 ~17 ~2 ~-17:@
+rule11=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT8 ~17 ~2 ~17:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT5 ~17 ~2 ~17:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT3 ~17 ~2 ~17:@
+rule12=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC1 ~13 ~2 ~37:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC4 ~10 ~2 ~37:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC3 ~10 ~2 ~37:@
+rule13=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC2 ~35 ~2 ~-35:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT7 ~32 ~2 ~-32:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC6 ~32 ~2 ~-32:@
+rule14=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC1a ~35 ~2 ~-12:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC4 ~35 ~2 ~-10:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC6 ~35 ~2 ~-10:@
+rule15=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC8 ~35 ~2 ~12:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC4 ~35 ~2 ~10:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC3 ~35 ~2 ~10:@
+rule16=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC1a ~35 ~2 ~35:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT7 ~32 ~2 ~32:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC6 ~32 ~2 ~32:@
+rule17=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyTower ~0 ~2 ~0:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyFountain ~0 ~2 ~0:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyFountainTower ~0 ~2 ~0:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyPool ~0 ~2 ~0:@
+rule18=0,100,stonebrick
+
+layer
+1,2,18,3,4
+5,6,18,7,8
+18,18,17,18,18
+9,10,18,11,12
+13,14,18,15,16
+endlayer

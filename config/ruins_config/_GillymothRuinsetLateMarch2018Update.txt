@@ -1,0 +1,247 @@
+Optimized Ruinset for September 2017, Exploration Update
+All templates created and developed by Gillymoth aka Ign: lafuller 2015-2018
+This set is for any version from 1.9 to 1.12
+
+-------
+
+use these tips when installing Ruins mod to confirm proper installation
+
+    If Ruins is installed:
+    breaking a block holding a stick will show the block-name in chat
+
+
+Gillymoth Diagnostic Tip #2856 (page 143 of Ruins Forum)
+    (refined from gillymoth tips #2773 and #2775 from page 138)
+
+    typing "/testruin tester" in the chat will do one of 4 things:
+
+    unknown command <-- the code for ruins is not installed in game
+    do not have permission <-- retest in creative mode, set in LAN or use creative test world
+    filepath does not exist <-- the folder structure needs to be in place (or just missing the test file)
+    a pile of blocks spawns around you <-- success!
+
+===================================================================
+
+
+<<<<<  All the folders go in the file path:  >>>>>
+
+  in 1.11 or earlier:   mods/resources/ruins
+
+  in 1.12 or later:     config/ruins_config
+
+
+<<<<< Folders >>>>>  (the list itself is decorative and is not used to call templates)
+
+   Gilly:
+
+    This is where all structures look to find parts to complete the builds.
+    This folder contains everything, leave everything in this folder.
+    Duplicate any files that are to be moved into biome folders.
+
+
+-------  Biome Folders
+
+   desert
+
+GillyAC1 - Calls one of 9 adobe housing districts
+GillyAdobeTower  - various desert towers, standalone and part of adobe cities
+GillyAdobeTower2
+GillyAdobeTower3
+GillyAdobeTower4
+GillyAdobeTower5
+GillyAdobeWell - various water wells with spiral access
+GillyAdobeWell2
+GillyAdobeWell3
+GillyAdobeWell4
+GillyAdobeWell5
+GillyAT1 - calls one of the above towers
+GillyAW1 - calls one of the above wells
+GillyCartoucheSolid - Massive obelisk with giant symbols on the sides, single piece version
+GillyDigSite - exposed underground temple chamber
+GillyCityAdobe    - various sized multipart cities made from the above parts
+GillyTownAdobe
+GillyVillageAdobe
+GillyAdobeCitidel    - Fancy Lattice Pyramids in my Citidel style
+GillyAdobeCitidel2
+-------
+
+   forest
+
+GillyTreeStump   - giant rotted out treestumps
+GillyTreeStunp2
+GillyTreeStumpOak
+GillyPortalAztec    - Quartz tower with netherportal
+GillyLumberTemple   - Acacia building potentially with a crypt underneath
+
+-------
+
+   generic
+
+GillyBoardedShaft - tiny Vertical drop with boards over top and ladder
+GillyEarthWorks  - simple dirt fortification
+GillySpawnerCreeper  - Fancy Dungeon room with Creeper Spawner
+GillySpawnerSkelly   - Fancy Dungeon room with Skelly Spawner
+
+-------
+
+   hell
+
+GillyNetherAccessPort - Tower designed to connect parts of the nether vertically, including nether roof
+GillyNetherCeilingDock  - Open vertical passage for elytra flight to nether roof
+GillyNetherRoofDome    - Nether Roof Hub room 
+
+-------
+
+   ice_flats (ice plains)
+
+GillyPortalCitidel    -Quartz tower with netherportal
+
+-------
+
+   jungle
+
+GillyAztecArch - aztec style stonebrick arch-de-triumph
+GillyAztecPool - tiny stonebrick structure
+GillyColiseum  - giant circular stonebrick gladiator arena framework
+GillyTower     - landmark tower with lit interior
+GillyAztecTotem  - fancy spiral column
+
+-------
+
+   ocean
+
+GillyOffshoreRig - Oil Platform with helipad
+GillySeafloorCaravel    -various Exploration Era shipwrecks 1500's
+GillySeafloorCargo
+GillySeafloorExplorer
+GillySeafloorFishing
+GillySeafloorGalleon
+GillySeafloorSailing
+GillySeafloorScout
+GillyShipCaravel        -Various Exploration Era Ships 1500's
+GillyShipCargo
+GillyShipDecoy
+GillyShipDecoy2
+GillyShipExplorer
+GillyShipFishing
+GillyShipGalleon
+GillyShipSailing
+GillyShipScout
+GillyShipSchooner
+GillyBoatTour         -Steam Transport type boats
+GillyBoatTour2
+GillyAirshipDragon     -airships in the Gillymoth style
+GillyAirshipMith
+GillyAirshipSkiff
+GillySeafloorDome    - Fancy medium dome on ocean floor
+
+-------
+
+   plains
+
+GillyBarn - Weathered 1-stall barn with loft
+GillyBeeHouse - birch house with open-air porch
+GillyC1 - calls GillyHouse: C series places a farm plot nearby.  House has been rebuilt
+GillyC2 - calls GillyBakery  Bakery has been rebuilt from scratch
+GillyC3 - calls GillyCabin
+GillyC4 - calls GillyHut
+GillyC5 - calls GillyShack
+GillyC6 - calls GillyShed
+GillyC7 - calls GillyBrickyard
+GillyC8 - calls GillyCottage
+GillyC9 - calls GillyHouse2
+GillyCitySettlement    - places all the above houses together with a center landmark
+GillyDungeon           - Underground expansive mob-battle room with columns that adjusts to the terrain height
+GillyFacilityBase      - medium underground base
+GillyFacilityHangar    - Underground Spaceship Docking Port
+GillyFacilityReactor   - Larger underground base with reactor room infrastructure
+GillyFoundry           - Fireplace of long since burnt out house
+GillyFrontierMineshack - Access to staircase to scattered mining tunnels
+GillyMineshack         - another mineshack, with rebuilt parts
+GillyLoft1             - weathered houses with loft and covered deck
+GillyLoft2
+GillyPortalEncruted    - Quartz tower with netherportal
+GillyWindmill          - windmill with haybales
+GillyFoundationBurnt   - The Foundation Series, Destroyed houses built from scratch in a ruined state
+GillyFoundationBurnt2
+GillyFoundationBurnt3
+GillyFoundationBurnt4
+GillyFoundationDamaged
+GillyFoundationDamaged2
+GillyFoundationFilled
+GillyFoundationFilled2
+GillyGardenEntrance    - Redesigned gardens to be more decorative
+GillyGardenFood
+GillyGardenTrellis
+GillyGardenVariety
+GillyGardenVines
+GillyCatacombStatue        - Escher-esque Catacombs with my Gillymoth Style vertically sliding rooms and colossal statue entrances
+GillyCatacombTempleStatue
+
+-------
+
+   river
+
+GillyLakeHouse  - Stacked wooden pilings on piers with weathered houses
+GillyLakeHouse2
+GillyLakeHouse3
+GillyLakeHouse4
+GillyLakePlatform   - Foundations as above houses
+GillyLakePlatform2
+GillyBridgeArchC    - Intricate arched bridge with various levels of damage
+GillyBridgeArchD    - Above bridge, opposite facing
+GillyBoatCanoe      - simple carved out tribal boats
+GillyBoatCanoe2
+GillyBoatCanoe3
+
+-------
+
+   savanna
+
+GillyTribalTentSite     - Acacia Log Tripod for tribal nomads
+GillyTribalTentSpotted  - Native American style tent
+GillyTribalTotemPhoenix - small, highly detailed phoenix totem pole
+GillyTribalTower        - Acacia log lookout points
+GillyTribalTower2
+GillyTribalTotemPole    - carved wooden totem pole
+
+-------
+
+   swampland
+
+GillySwampHut1 - simple wooden weathered huts on stilts
+GillySwampHut2
+GillySwampHut3
+GillySwampHut4
+GillySwampHut5
+GillySwampPlatform    - Foundations as above huts
+GillySwampPlatform2
+
+-------
+
+   Folders that haven't been listed contain proxy templates to spawn the above structures.
+   Extra folders added as a safeguard in case this is run in the version with broken internal biome lists
+
+==================================================
+
+
+   This set has evolved over a long time, and builds are being constantly revised and renovated.
+   If a build from the most recent set is no longer available, links to all the previous versions
+   are still intact, and obsolete structures can be replaced, however they are likely to have been
+   rebuilt from scratch for newer sets.
+
+   New updates 
+
+   If any structures become broken in some way, they can be moved to the top of the list for renovations.
+
+
+==================================================
+
+   Legal stuff to stop ad based torrent sites from mis-using this dataset as a means of proxy.
+   Not meant to inhibit Minecraft Modpack Developers who use Ruins Mod as part of their set of mods.
+
+  This content is designed to be generated with Ruins Mod.
+  Keep all filenames the same as I (Gillymoth) have made them.
+  No part of my content is to be converted to any other format.
+  No part of my content may be distributed unless accompanied by Ruins Mod.
+  No part of my content may be used as part of downloads by ad based sites.

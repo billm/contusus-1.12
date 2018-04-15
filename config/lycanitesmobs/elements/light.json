@@ -1,0 +1,15 @@
+{
+  "name": "light",
+  "loadDefault": true,
+  "debuffDurationMultiplier": 2,
+  "buffs": [
+    "minecraft:night_vision"
+  ],
+  "debuffs": [
+    "minecraft:glowing"
+  ],
+  "components": [
+    "fire",
+    "order"
+  ]
+}

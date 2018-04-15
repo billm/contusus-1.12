@@ -1,0 +1,14 @@
+{
+  "name": "fae",
+  "loadDefault": true,
+  "buffs": [
+    "minecraft:regeneration"
+  ],
+  "debuffs": [
+    "lycanitesmobs:lifeleak"
+  ],
+  "components": [
+    "water",
+    "order"
+  ]
+}

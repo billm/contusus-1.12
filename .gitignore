@@ -1,4 +1,5 @@
 *.jar
+*.jar.disabled
 mods/dungeons2/logs/
 mods/hats/Favourites/
 .mixin.out

@@ -2816,7 +2816,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2018-04-15T15:05:41.0555257Z",
+  "lastPreviousMatchUpdate": "2018-04-15T20:06:46.944855Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -8119,7 +8119,7 @@
       "installedFile": {
         "Id": 2540767,
         "FileName": "ElevatorMod-1.12.2-1.3.6.jar",
-        "FileNameOnDisk": "ElevatorMod-1.12.2-1.3.6.jar",
+        "FileNameOnDisk": "ElevatorMod-1.12.2-1.3.6.jar.disabled",
         "FileDate": "2018-03-13T16:23:57.513",
         "ReleaseType": 1,
         "FileStatus": 2,
@@ -9065,7 +9065,7 @@
       "dateInstalled": "2018-04-08T22:49:04.0970087Z",
       "dateUpdated": "2018-04-08T22:49:04.099014Z",
       "dateLastUpdateAttempted": "2018-04-08T22:49:04.099014Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12078,7 +12078,7 @@
       "installedFile": {
         "Id": 2533602,
         "FileName": "DankNull-1.12-1.4.33.jar",
-        "FileNameOnDisk": "DankNull-1.12-1.4.33.jar",
+        "FileNameOnDisk": "DankNull-1.12-1.4.33.jar.disabled",
         "FileDate": "2018-02-21T16:14:25.38",
         "ReleaseType": 1,
         "FileStatus": 2,

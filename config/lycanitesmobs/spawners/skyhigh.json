@@ -3,13 +3,13 @@
   "type": "spawner",
   "enabled": true,
   "loadDefault": true,
-  "mobCountMin": 8,
+  "mobCountMin": 4,
   "ignoreBiomes": false,
   "ignoreLightLevel": true,
   "conditions": [],
   "triggers": [
     {
-      "type": "tick",
+      "type": "world",
       "chance": 0.5,
       "tickRate": 800
     }
@@ -27,7 +27,7 @@
         64,
         32
       ],
-      "yMin": 150,
+      "yMin": 128,
       "sorting": "random",
       "limit": 32,
       "underground": true,

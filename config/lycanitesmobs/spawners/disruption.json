@@ -36,6 +36,7 @@
         "elementalmobs:nymph",
         "elementalmobs:eechetik",
         "elementalmobs:vapula",
+        "elementalmobs:banshee",
         "elementalmobs:tremor",
         "elementalmobs:wraith",
         "elementalmobs:spectre"
@@ -43,7 +44,7 @@
       "entityIdsListType": "whitelist"
     },
     {
-      "type": "tick",
+      "type": "player",
       "count": 0,
       "chance": 1,
       "tickRate": 1,

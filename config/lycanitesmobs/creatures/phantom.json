@@ -15,7 +15,7 @@
     "biomes": [
       "spooky"
     ],
-    "spawnWeight": 10,
+    "spawnWeight": 2,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,
@@ -79,7 +79,7 @@
       "item": "minecraft:skull",
       "metadata": 1,
       "minAmount": 1,
-      "maxAmount": 2,
+      "maxAmount": 1,
       "chance": 0.05
     },
     {

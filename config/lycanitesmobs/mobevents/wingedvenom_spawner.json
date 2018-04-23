@@ -14,7 +14,7 @@
   "conditions": [],
   "triggers": [
     {
-      "type": "tick",
+      "type": "player",
       "chance": 1,
       "tickRate": 100
     }
@@ -41,6 +41,14 @@
     {
       "mobId": "swampmobs:remobra",
       "weight": 8
+    },
+    {
+      "mobId": "elementalmobs:eechetik",
+      "weight": 2
+    },
+    {
+      "mobId": "elementalmobs:xaphan",
+      "weight": 2
     }
   ]
 }

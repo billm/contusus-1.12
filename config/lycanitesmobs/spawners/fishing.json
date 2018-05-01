@@ -12,7 +12,7 @@
   "triggers": [
     {
       "type": "fishing",
-      "chance": 0.2
+      "chance": 0.1
     }
   ],
   "locations": [

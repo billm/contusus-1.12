@@ -20,7 +20,7 @@
         "minecraft:glowstone"
       ],
       "blocksListType": "whitelist",
-      "chance": 0.02
+      "chance": 0.005
     }
   ],
   "locations": [

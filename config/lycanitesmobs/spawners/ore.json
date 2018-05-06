@@ -18,7 +18,7 @@
       "onHarvest": false,
       "ores": true,
       "gems": false,
-      "chance": 0.005
+      "chance": 0.02
     }
   ],
   "locations": [

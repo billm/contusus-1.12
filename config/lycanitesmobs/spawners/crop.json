@@ -14,7 +14,7 @@
   "triggers": [
     {
       "type": "crop",
-      "chance": 0.001
+      "chance": 0.005
     }
   ],
   "locations": [

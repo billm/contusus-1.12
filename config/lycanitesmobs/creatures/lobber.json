@@ -60,7 +60,9 @@
       "type": "rare"
     }
   ],
-  "element": "lava",
+  "elements": [
+    "lava"
+  ],
   "peaceful": false,
   "summonable": false,
   "tameable": false,

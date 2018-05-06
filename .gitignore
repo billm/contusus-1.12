@@ -36,3 +36,4 @@ config/InvTweaks.cfg
 config/MouseTweaks.cfg
 TombManyGraves/savedInventories/
 config/agricraft/json/server_*
+servers.dat

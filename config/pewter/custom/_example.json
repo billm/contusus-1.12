@@ -1,0 +1,56 @@
+{
+  "color": "#666688",
+  "craftable": false,
+  "madeInToolForge": true,
+  "name": "examplematerial",
+  "meltingTemperature": 475,
+  "durability": 100,
+  "toolAttackDamage": 5,
+  "toolHarvestLevel": 0,
+  "toolSpeed": 1.0,
+  "handleMult": 1.0,
+  "handleDurability": 50,
+  "bindingDurability": 25,
+  "bowSpeed": 2.5,
+  "bowAccuracy": 0.5,
+  "bowRange": 1.0,
+  "bowBonusDamage": 5.0,
+  "arrowShaftModifier": 1.1,
+  "arrowShaftBonusAmmo": 5,
+  "arrowFletchingModifier": 0.0,
+  "bowStringModifier": 1.1,
+  "defaultTrait": "brilliance",
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE"
+  ],
+  "nameLocales": {
+    "en_US": "Test Material."
+  },
+  "smelting": {
+    "ingot": [
+      "minecraft:apple"
+    ],
+    "block": [],
+    "nugget": []
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "dense"
+    ]
+  }
+}

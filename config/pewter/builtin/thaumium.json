@@ -1,0 +1,56 @@
+{
+  "color": "#6F43E8",
+  "craftable": false,
+  "madeInToolForge": true,
+  "name": "thaumium",
+  "meltingTemperature": 475,
+  "durability": 300,
+  "toolAttackDamage": 4,
+  "toolHarvestLevel": 1,
+  "toolSpeed": 6.5,
+  "handleMult": 0.9,
+  "handleDurability": 95,
+  "bindingDurability": 35,
+  "bowSpeed": 2.5,
+  "bowAccuracy": 0.85,
+  "bowRange": 1.75,
+  "bowBonusDamage": 6.5,
+  "arrowShaftModifier": 1.1,
+  "arrowShaftBonusAmmo": 5,
+  "arrowFletchingModifier": 0.0,
+  "bowStringModifier": 0.05,
+  "defaultTrait": "aural",
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE"
+  ],
+  "nameLocales": {
+    "en_US": "Thaumium"
+  },
+  "smelting": {
+    "ingot": [
+      "thaumcraft:ingot:0"
+    ],
+    "block": [],
+    "nugget": []
+  },
+  "specificTraits": {
+    "HEAD": [
+      "essentia"
+    ]
+  }
+}

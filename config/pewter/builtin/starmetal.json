@@ -1,0 +1,56 @@
+{
+  "color": "#222288",
+  "craftable": false,
+  "madeInToolForge": true,
+  "name": "starmetal",
+  "meltingTemperature": 475,
+  "durability": 275,
+  "toolAttackDamage": 4,
+  "toolHarvestLevel": 1,
+  "toolSpeed": 5.7,
+  "handleMult": 0.8,
+  "handleDurability": 95,
+  "bindingDurability": 65,
+  "bowSpeed": 2.5,
+  "bowAccuracy": 1.0,
+  "bowRange": 1.6,
+  "bowBonusDamage": 6.5,
+  "arrowShaftModifier": 1.2,
+  "arrowShaftBonusAmmo": 5,
+  "arrowFletchingModifier": 0.0,
+  "bowStringModifier": 0.2,
+  "defaultTrait": "brilliance",
+  "looks": {
+    "shininess": 0.6,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE"
+  ],
+  "nameLocales": {
+    "en_US": "Starmetal"
+  },
+  "smelting": {
+    "ingot": [
+      "astralsorcery:itemcraftingcomponent:1"
+    ],
+    "block": [],
+    "nugget": []
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "dense"
+    ]
+  }
+}

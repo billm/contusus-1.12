@@ -1,0 +1,48 @@
+{
+  "color": "#6BBEBF",
+  "craftable": true,
+  "madeInToolForge": false,
+  "name": "manastring",
+  "meltingTemperature": 475,
+  "durability": 0,
+  "toolAttackDamage": 0,
+  "toolHarvestLevel": 0,
+  "toolSpeed": 0.0,
+  "handleMult": 0.0,
+  "handleDurability": 0,
+  "bindingDurability": 0,
+  "bowSpeed": 0.0,
+  "bowAccuracy": 0.0,
+  "bowRange": 0.0,
+  "bowBonusDamage": 0.0,
+  "arrowShaftModifier": 0.0,
+  "arrowShaftBonusAmmo": 0,
+  "arrowFletchingModifier": 0.0,
+  "bowStringModifier": 0.85,
+  "defaultTrait": "",
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "matParts": [
+    "BOWSTRING"
+  ],
+  "nameLocales": {
+    "en_US": "Manastring"
+  },
+  "smelting": {
+    "ingot": [
+      "botania:manaresource:16"
+    ],
+    "block": [],
+    "nugget": []
+  },
+  "specificTraits": {}
+}

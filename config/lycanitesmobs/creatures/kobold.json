@@ -62,8 +62,7 @@
     }
   ],
   "elements": [
-    "order",
-    "chaos"
+    "order"
   ],
   "peaceful": false,
   "summonable": true,

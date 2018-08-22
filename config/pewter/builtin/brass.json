@@ -1,0 +1,115 @@
+{
+  "tool": {
+    "bow": {
+      "speed": 0.16666667,
+      "range": 1.0,
+      "bonusDamage": 6.5
+    },
+    "fletching": {
+      "accuracy": 0.0,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 4.0,
+      "speed": 6.5,
+      "durability": 240,
+      "harvestLevel": 1
+    },
+    "handle": {
+      "modifier": 1.05,
+      "durability": 105
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.0
+    },
+    "extra": {
+      "durability": 35
+    }
+  },
+  "color": "#D2983A",
+  "craftable": false,
+  "madeInToolForge": true,
+  "name": "brass",
+  "createMeltingRecipes": false,
+  "meltingTemperature": 475,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluidName": "brass",
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {},
+  "smelting": {
+    "ingot": [
+      "thaumcraft:ingot:2"
+    ],
+    "block": [
+      "thaumcraft:metal_brass"
+    ],
+    "nugget": [
+      "thaumcraft:nugget:8"
+    ],
+    "ore": []
+  },
+  "armor": {
+    "core": {
+      "durability": 12.0,
+      "defense": 14.0
+    },
+    "plates": {
+      "modifier": 0.9,
+      "durability": 6.0,
+      "toughness": 0.0
+    },
+    "trim": {
+      "extraDurability": 4.0
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "basher",
+      "heavyweight"
+    ],
+    "CORE": [
+      "shielding_armor"
+    ],
+    "PLATES": [
+      "dense_armor"
+    ],
+    "TRIM": [
+      "dense_armor"
+    ],
+    "HANDLE": [
+      "heavyweight"
+    ],
+    "EXTRA": [
+      "heavyweight"
+    ],
+    "BOW": [
+      "heavyweight"
+    ],
+    "PROJECTILE": [
+      "heavyweight"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "tool": {
+    "bow": {
+      "speed": 0.625,
+      "range": 1.0,
+      "bonusDamage": 3.5
+    },
+    "fletching": {
+      "accuracy": 0.0,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 4.5,
+      "speed": 6.25,
+      "durability": 480,
+      "harvestLevel": 1
+    },
+    "handle": {
+      "modifier": 1.05,
+      "durability": 30
+    },
+    "arrowShaft": {
+      "modifier": 0.0,
+      "bonusAmmo": 0
+    },
+    "bowstring": {
+      "modifier": 1.0
+    },
+    "extra": {
+      "durability": 125
+    }
+  },
+  "color": "#ED339A",
+  "craftable": false,
+  "madeInToolForge": true,
+  "name": "elementium",
+  "createMeltingRecipes": true,
+  "meltingTemperature": 475,
+  "looks": {
+    "shininess": 0.6,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {},
+  "smelting": {
+    "ingot": [
+      "botania:manaresource:7"
+    ],
+    "block": [
+      "botania:storage:2"
+    ],
+    "nugget": [
+      "botania:manaresource:19"
+    ],
+    "ore": []
+  },
+  "armor": {
+    "core": {
+      "durability": 15.5,
+      "defense": 14.5
+    },
+    "plates": {
+      "modifier": 1.3,
+      "durability": -6.0,
+      "toughness": 0.5
+    },
+    "trim": {
+      "extraDurability": 5.5
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "manainfused"
+    ],
+    "HANDLE": [
+      "manainfused"
+    ],
+    "EXTRA": [
+      "manainfused"
+    ],
+    "BOW": [
+      "manainfused"
+    ],
+    "PROJECTILE": [
+      "manainfused"
+    ],
+    "CORE": [
+      "manainfused_armor"
+    ],
+    "PLATES": [
+      "manainfused_armor"
+    ],
+    "TRIM": [
+      "manainfused_armor"
+    ]
+  }
+}

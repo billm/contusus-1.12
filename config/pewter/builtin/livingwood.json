@@ -1,0 +1,122 @@
+{
+  "tool": {
+    "bow": {
+      "speed": 1.0526316,
+      "range": 1.05,
+      "bonusDamage": 1.0
+    },
+    "fletching": {
+      "accuracy": 0.0,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 2.0,
+      "speed": 2.25,
+      "durability": 50,
+      "harvestLevel": 0
+    },
+    "handle": {
+      "modifier": 1.15,
+      "durability": 35
+    },
+    "arrowShaft": {
+      "modifier": 0.7,
+      "bonusAmmo": 6
+    },
+    "bowstring": {
+      "modifier": 1.0
+    },
+    "extra": {
+      "durability": 25
+    }
+  },
+  "color": "#401909",
+  "craftable": true,
+  "madeInToolForge": false,
+  "name": "livingwood",
+  "createMeltingRecipes": true,
+  "meltingTemperature": 475,
+  "looks": {
+    "shininess": 0.0,
+    "brightness": 0.15,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM",
+    "SHAFT"
+  ],
+  "nameLocales": {},
+  "smelting": {
+    "ingot": [
+      "botania:manaresource:3"
+    ],
+    "block": [],
+    "nugget": [],
+    "ore": []
+  },
+  "armor": {
+    "core": {
+      "durability": 3.0,
+      "defense": 3.5
+    },
+    "plates": {
+      "modifier": 1.05,
+      "durability": 1.25,
+      "toughness": 0.0
+    },
+    "trim": {
+      "extraDurability": 0.5
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "ecological",
+      "manaharvest"
+    ],
+    "HANDLE": [
+      "ecological",
+      "manaharvest"
+    ],
+    "EXTRA": [
+      "ecological",
+      "manaharvest"
+    ],
+    "BOW": [
+      "ecological",
+      "manaharvest"
+    ],
+    "SHAFT": [
+      "ecological",
+      "manaharvest"
+    ],
+    "PROJECTILE": [
+      "ecological",
+      "manaharvest"
+    ],
+    "CORE": [
+      "manaharvest_armor",
+      "ecological_armor"
+    ],
+    "PLATES": [
+      "manaharvest_armor",
+      "ecological_armor"
+    ],
+    "TRIM": [
+      "manaharvest_armor",
+      "ecological_armor"
+    ]
+  }
+}

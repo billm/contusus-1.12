@@ -6,7 +6,7 @@
   "spawning": {
     "enabled": true,
     "spawners": [
-      "sky"
+      "endsky"
     ],
     "disableSubspecies": false,
     "dimensionIds": [],
@@ -74,6 +74,12 @@
       "minAmount": 1,
       "maxAmount": 2,
       "chance": 0.5
+    },
+    {
+      "item": "elementalmobs:chaosorbcharge",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.25
     }
   ],
   "sizeScale": 1,

@@ -1,25 +1,41 @@
 {
+  "tool": {
+    "bow": {
+      "speed": 0.45454544,
+      "range": 1.75,
+      "bonusDamage": 6.5
+    },
+    "fletching": {
+      "accuracy": 0.0,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 5.3,
+      "speed": 5.8,
+      "durability": 740,
+      "harvestLevel": 3
+    },
+    "handle": {
+      "modifier": 1.15,
+      "durability": -55
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 0.05
+    },
+    "extra": {
+      "durability": 200
+    }
+  },
   "color": "#2A114A",
   "craftable": false,
   "madeInToolForge": true,
   "name": "voidmetal",
+  "createMeltingRecipes": true,
   "meltingTemperature": 475,
-  "durability": 840,
-  "toolAttackDamage": 6,
-  "toolHarvestLevel": 3,
-  "toolSpeed": 5.0,
-  "handleMult": 1.15,
-  "handleDurability": -15,
-  "bindingDurability": 200,
-  "bowSpeed": 2.5,
-  "bowAccuracy": 0.85,
-  "bowRange": 1.75,
-  "bowBonusDamage": 6.5,
-  "arrowShaftModifier": 1.1,
-  "arrowShaftBonusAmmo": 5,
-  "arrowFletchingModifier": 0.0,
-  "bowStringModifier": 0.05,
-  "defaultTrait": "warping",
   "looks": {
     "shininess": 0.25,
     "brightness": 0.25,
@@ -36,11 +52,12 @@
     "HANDLE",
     "EXTRA",
     "BOW",
-    "PROJECTILE"
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
   ],
-  "nameLocales": {
-    "en_US": "Void Metal"
-  },
+  "nameLocales": {},
   "smelting": {
     "ingot": [
       "thaumcraft:ingot:1"
@@ -50,12 +67,48 @@
     ],
     "nugget": [
       "thaumcraft:nugget:7"
-    ]
+    ],
+    "ore": []
+  },
+  "armor": {
+    "core": {
+      "durability": 16.5,
+      "defense": 17.5
+    },
+    "plates": {
+      "modifier": 1.05,
+      "durability": -3.5,
+      "toughness": 1.0
+    },
+    "trim": {
+      "extraDurability": 6.0
+    }
   },
   "specificTraits": {
     "HEAD": [
-      "warping",
-      "sapping"
+      "sapping",
+      "warping"
+    ],
+    "HANDLE": [
+      "warping"
+    ],
+    "EXTRA": [
+      "warping"
+    ],
+    "BOW": [
+      "warping"
+    ],
+    "PROJECTILE": [
+      "warping"
+    ],
+    "CORE": [
+      "maniacal_armor"
+    ],
+    "PLATES": [
+      "maniacal_armor"
+    ],
+    "TRIM": [
+      "maniacal_armor"
     ]
   }
 }

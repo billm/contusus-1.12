@@ -37,3 +37,6 @@ config/MouseTweaks.cfg
 TombManyGraves/savedInventories/
 config/agricraft/json/server_*
 servers.dat
+HammerCore
+mods/OpenSecurity
+mods/memory_repo

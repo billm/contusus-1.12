@@ -42,7 +42,6 @@ import mods.jei.JEI.removeAndHide as rh;
 
 # *======= Metal Nuggets =======*
 	rh(<immersiveengineering:metal:29>);
-	rh(<embers:nugget_iron>);
 	rh(<embers:nugget_copper>);
 	rh(<embers:nugget_lead>);
 	rh(<embers:nugget_silver>);
@@ -60,9 +59,6 @@ import mods.jei.JEI.removeAndHide as rh;
 	rh(<immersiveengineering:metal:27>);
 	rh(<immersiveengineering:metal:28>);
 	rh(<plustic:invarnugget>);
-	
-# *======= Metal Gears =======*
-	rh(<libvulpes:productgear:6>);
 
 # *======= Fuel  =======*
 // Set to block of coal, might be high, but it'll get wasted easily if you don't manage usage

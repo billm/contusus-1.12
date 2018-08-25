@@ -32,25 +32,6 @@ recipes.addShaped(<funkylocomotion:mass_frame_corner>,[
 [null,<funkylocomotion:pusher>],
 [<ore:ingotElectrum>,null,<ore:ingotElectrum>]
 ]);
-
-
-# Pam's Cotton
-	recipes.remove(<harvestcraft:cottonitem>);
-		
-# Peking Duck
-	recipes.remove(<harvestcraft:pekingduckitem>);
-	recipes.addShapeless("Peking Duck", 
-	<harvestcraft:pekingduckitem>, 
-	[<ore:toolBakeware>, <ore:listAllduckraw>, <harvestcraft:onionitem>, 
-	<harvestcraft:garlicitem>, <ore:cropRice>, <minecraft:apple>, 
-	<minecraft:carrot>, <harvestcraft:gingeritem>]);
-	
-# Soft Pretzel
-	recipes.remove(<harvestcraft:softpretzelitem>);
-	recipes.addShapeless("Soft Pretzel", 
-	<harvestcraft:softpretzelitem>, 
-	[<ore:toolBakeware>, <ore:foodDough>, <ore:foodButter>, 
-	<ore:itemSalt>, <ore:itemSalt>]);
 		
 # Roots 2 Iron Knife
 	recipes.remove(<roots:iron_knife>);

@@ -64,4 +64,8 @@ import mods.jei.JEI.removeAndHide as rh;
 # *======= Metal Gears =======*
 	rh(<libvulpes:productgear:6>);
 
+# *======= Fuel  =======*
+// Set to block of coal, might be high, but it'll get wasted easily if you don't manage usage
+	furnace.setFuel(<sgcraft:naquadah>, 16000);
+
 	print("--- loaded Misc.zs ---");

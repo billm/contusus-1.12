@@ -37,6 +37,30 @@ import mods.jei.JEI.removeAndHide as rh;
 	[<extrautils2:ingredients:16>, <draconicevolution:draconium_capacitor:1>, <extrautils2:ingredients:16>], 
 	[<extrautils2:opinium:4>, <extrautils2:rainbowgenerator:1>, <extrautils2:opinium:4>]]);
 
+# Project E Philosophers stone
+recipes.remove(<projecte:item.pe_philosophers_stone>);
+recipes.addShaped("Philosophers Stone", 
+	<projecte:item.pe_philosophers_stone>, 
+	[[<minecraft:glowstone_dust>, <minecraft:redstone>, <minecraft:glowstone_dust>],
+	[<minecraft:redstone>, <minecraft:nether_star>, <minecraft:redstone>], 
+	[<minecraft:glowstone_dust>, <minecraft:redstone>, <minecraft:glowstone_dust>]]);
+#recipes.addShaped("Philosophers Stone", 
+#	<projecte:item.pe_philosophers_stone>, 
+#	[<minecraft:glowstone_dust>, <minecraft:nether_star>, <minecraft:glowstone_dust>], 
+#	[<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:redstone>]]);
+# Project E Transmutation Table
+recipes.remove(<projecte:transmutation_table>);
+recipes.addShaped("Transmutation Table", 
+	<projecte:transmutation_table>, 
+	[[<projecte:item.pe_matter>, <minecraft:obsidian>, <projecte:item.pe_matter>],
+	[<minecraft:obsidian>, <projecte:item.pe_philosophers_stone>, <minecraft:obsidian>], 
+	[<projecte:item.pe_matter>, <minecraft:obsidian>, <projecte:item.pe_matter>]]);
+#recipes.addShaped("Transmutation Table", 
+#	<projecte:transmutation_table>, 
+#	[[<minecraft:obsidian>, <projecte:item.pe_matter>, <minecraft:obsidian>],
+#	[<projecte:item.pe_matter>, <projecte:item.pe_philosophers_stone>, <projecte:item.pe_matter>], 
+#	[<minecraft:obsidian>, <projecte:item.pe_matter>, <minecraft:obsidian>]]);
+
 # *======= Shapeless Recipes =======*	
 	recipes.addShapeless("TE Bronze", <thermalfoundation:material:163> * 4, [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotTin>]);
 

@@ -147,7 +147,7 @@
 			"generator": {
 				"block": "iron_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 10
 			},
 			"cluster-count": 20,
 			"min-height": 0,
